@@ -28,7 +28,7 @@ func (index Index) String() string {
 }
 
 func main() {
-	page1 := Page{"Hello", "world"}
+	page1 := Page{"Hello", "Hello", "world"}
 	page2 := Page{"Hello", "Peter"}
 	page3 := Page{"Hello", "your", "majesty"}
 	book := Book{page1, page2, page3}
